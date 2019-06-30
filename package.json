@@ -1,0 +1,15 @@
+{
+  "name": "react-minimal",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "start": "parcel serve index.html",
+    "build": "parcel build index.html",
+    "clean": "rm -Rf dist .cache"
+  },
+  "dependencies": {
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  }
+}
