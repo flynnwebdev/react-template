@@ -4,16 +4,16 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "start": "./node_modules/.bin/opener http://localhost:1234/ && ./node_modules/.bin/parcel serve index.html",
-    "build": "./node_modules/.bin/parcel build index.html",
+    "start": "./node_modules/.bin/opener http://localhost:1234/ && parcel serve index.html",
+    "build": "parcel build index.html",
     "clean": "echo \"Cleaning project ...\" && rm -Rf dist .cache"
   },
   "dependencies": {
     "react": "latest",
-    "react-dom": "latest"
+    "react-dom": "latest",
+    "styled-components": "latest"
   },
   "devDependencies": {
-    "opener": "latest",
-    "parcel": "latest"
+    "opener": "latest"
   }
 }
